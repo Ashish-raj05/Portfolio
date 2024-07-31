@@ -1,0 +1,128 @@
+
+hr{
+    border: none;
+}
+.center {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    border: none;
+    backdrop-filter: blur(200px);
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 50px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.project {
+    margin-bottom: 40px;
+    display: flex;
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column; 
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 10px;
+    max-width: 100%; 
+}
+
+.ptext {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.ptext p {
+    margin-top: 15px;
+}
+
+.ptext h2 {
+    background-color: blueviolet;
+    padding: 10px;
+    opacity: 70%;
+    border-radius: 50px;
+}
+
+.ptext a {
+    background: transparent;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.ptext i {
+    margin-left: 8px;
+}
+
+.ptext a:hover {
+    color: blueviolet;
+}
+
+
+@media (min-width: 768px) {
+    .project {
+        flex-direction: row; 
+        height: auto;
+    }
+    
+    .project img {
+        width: 50%;
+        margin-left: 0;
+    }
+    
+    .ptext {
+        margin-left: 20px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .projects{
+        padding: 30px;
+        backdrop-filter: blur(0px);
+    }
+    .project {
+        flex-direction: column;
+        height: auto;
+        border: 2px solid blueviolet;
+        border-radius: 10px;
+        padding: 15px;
+        
+    }
+
+    .project img {
+        border-radius: 15px;
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
+    
+    .ptext {
+        font-size: 0.7rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .ptext a{
+        font-size: 0.9rem;
+    }
+}
