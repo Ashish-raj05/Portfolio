@@ -1,35 +1,35 @@
 
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Navbar from './navbar'
-import Skills from './skills'
-import Home from './home'
-import Projects from './projects'
-import Footer from './footer'
-import Contact from './contact'
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+// import Navbar from './navbar'
+// import Skills from './skills'
+// import Home from './home'
+// import Projects from './projects'
+// import Footer from './footer'
+// import Contact from './contact'
 
-export default function Router() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <>
-      <Navbar/>
-      <Home />
-      <Skills />
-      <Projects />
-      <Contact/>
-      <Footer/>
-      </>
-    },
+// export default function Router() {
+//   const router = createBrowserRouter([
+//     {
+//       path: "/",
+//       element: <>
+//       <Navbar/>
+//       <Home />
+//       <Skills />
+//       <Projects />
+//       <Contact/>
+//       <Footer/>
+//       </>
+//     },
     
-  ])
-  return (
-    <>
+//   ])
+//   return (
+//     <>
       
-      <RouterProvider router={router} />
+//       <RouterProvider router={router} />
      
 
-    </>
-  )
-}
+//     </>
+//   )
+// }
 
